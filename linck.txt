@@ -1,8 +1,8 @@
-links = //h2[@class="titulo font-f_16 height-6r"]/a/@href
 
-textotitiulo = '//h1[@class="titulo font-f_44 titulo--principal"]/a/text()'
 
-tituloTexto = '//p[@class="intro"]/text()'
+links = '//div[@class="d-flex"]/div/h2/a/@href'
+
+ tituloTexto = '//p[@class="intro"]/text()'
 
 cuerpo = '//div[@class="cuerpo intro_ mb-3"]/p/text()'
 
